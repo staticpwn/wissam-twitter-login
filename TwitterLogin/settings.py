@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-u9*x@0%e_%tam_g#)+=y$yvvt(*r9dzmdf!o4%5mvr2e-=$ji9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['wissam-twitter-login.herokuapp', '127.0.0.1']
+ALLOWED_HOSTS = ['wissam-twitter-login.herokuapp.com', '127.0.0.1']
 
 
 # Application definition

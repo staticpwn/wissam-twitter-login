@@ -6,7 +6,7 @@ class TwitterAPI:
     def __init__(self):
         self.api_key = "JJMBRcmpxEid0nGUd9e6OnNDL"
         self.api_secret = "9WlbA7qqc37mQ8eMvjwh4pJfSiYBKNnUHL4OdbN1rGu3XUsyQx"
-        self.oauth_callback_url = "http://localhost:8000/authorization/twitter_callback/"
+        self.oauth_callback_url = "https://wissam-twitter-login.herokuapp.com/authorization/twitter_callback/"
 
     def twitter_login(self):
         oauth1_user_handler = tweepy.OAuthHandler(
